@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mi página web</title>
+  <script>
+    function saludar() {
+      var nombre = prompt("Por favor, ingresa tu nombre:");
+      if (nombre) {
+        alert("¡Hola, " + nombre + "! Bienvenido a mi página web.");
+      } else {
+        alert("¡Hola! Bienvenido a mi página web.");
+      }
+    }
+  </script>
+</head>
+<body>
+  <header>
+    <h1>Bienvenido a mi página web</h1>
+  </header>
+  
+  <nav>
+    <ul>
+      <li><a href="#">Inicio</a></li>
+      <li><a href="#">Acerca de</a></li>
+      <li><a href="#">Contacto</a></li>
+    </ul>
+  </nav>
+  
+  <section>
+    <h2>Acerca de mí</h2>
+    <p>Hola, soy [tu nombre]. Bienvenido a mi página web.</p>
+  </section>
+  
+  <section>
+    <h2>Contacto</h2>
+    <p>Puedes contactarme a través de mi dirección de correo electrónico: [correo electrónico]</p>
+  </section>
+  
+  <footer>
+    <p>Derechos de autor &copy; 2023. Todos los derechos reservados.</p>
+  </footer>
+  
+  <button onclick="saludar()">¡Haz clic aquí!</button>
+</body>
+</html>
